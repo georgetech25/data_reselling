@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+
+body{
+    background-image: linear-gradient(yellow, blue,black);
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+.container h1{
+    color: BLUE;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+
+.container h3{
+    color:green;
+    text-align: center;
+    font-size: 15px;
+}
+
+.container p{
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.text{
+    margin-right: 50px;
+    line-height: 1.7rem;
+}
+
+.container_services{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+
+
+.container_services h1 {
+    color: white;
+    font-size: 15px;
+}
+
+
+#ser{
+    text-align: center;
+    color: yellow;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.container_table{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.container_table h4{
+    color: orange;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.container_table p{
+    line-height: 1.5rem;
+}
+
+
+#mtn{
+    color: yellow;
+}
+
+
+#airtel{
+    color: red;
+}
+
+
+#glo{
+    color: green;
+}
+
+#mobile{
+    color: deep green;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+
+.footer h1 {
+    color: blue;
+    font-size: 17px;
+}
+
+.footer p{
+    color: steelblue;
+}
